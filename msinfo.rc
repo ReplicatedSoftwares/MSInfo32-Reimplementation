@@ -1,0 +1,32 @@
+#include <windows.h>
+
+1 24 "msinfo.manifest"
+
+1 VERSIONINFO
+ FILEVERSION 10,0,19041,3636
+ PRODUCTVERSION 10,0,19041,3636
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "Microsoft Corporation\0"
+            VALUE "FileDescription", "System Information (Recovered)\0"
+            VALUE "FileVersion", "10.0.19041.3636 (WinBuild.160101.0800)\0"
+            VALUE "InternalName", "MSINFO32\0"
+            VALUE "OriginalFilename", "MSINFO32.EXE\0"
+            VALUE "ProductName", "Microsoft Windows Operating System\0"
+            VALUE "ProductVersion", "10.0.19041.3636\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+

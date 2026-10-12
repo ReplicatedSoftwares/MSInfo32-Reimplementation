@@ -1,0 +1,27 @@
+# Build output
+build/
+*.exe
+*.obj
+*.o
+*.res
+*.pdb
+
+# IDE / editor files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Reverse-engineering / analysis artifacts
+ghidra_project/
+ghidra_project_pdb/
+ghidra_scripts/
+recovery/
+symbols/
+recovered_source/
+tools/
+
+# Misc generated files
+*.log
+*.tmp
+smoke_report*.txt
